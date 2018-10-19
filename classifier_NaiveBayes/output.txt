@@ -1,0 +1,31 @@
+Q3 a)
+Bernoulli parameters: p
+in html:
+	Spam: 0.76,
+	Not_Spam: 0.59
+has emoji:
+	Spam: 0.20,
+	Not_Spam: 0.15
+sent to list:
+	Spam: 0.07,
+	Not_Spam: 0.31
+from .com:
+	Spam: 0.74,
+	Not_Spam: 0.28
+has my name:
+	Spam: 0.35,
+	Not_Spam: 0.60
+has sig:
+	Spam: 0.66,
+	Not_Spam: 0.32
+
+Gaussian Parameters: mean, variance
+# sentences:
+	Spam: 3.98, 3.72,
+	Not_Spam: 6.19, 6.40
+# words:
+	Spam: 68.84, 79.35,
+	Not_Spam: 70.77, 912.77
+
+Q3 b)
+Classifier error with features ['in html', 'has emoji', 'sent to list', 'from .com', 'has my name', 'has sig', '# sentences', '# words']: 0.12
